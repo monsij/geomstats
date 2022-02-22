@@ -11,16 +11,6 @@ on:
     - '.deepsource.toml'
     - '.gitignore'
 
-  pull_request:
-    branches: [master]
-    paths-ignore:
-    - 'docs/**'
-    - 'README.rst'
-    - '.github/workflows/docs.yml'
-    - 'LICENSE.md'
-    - '.deepsource.toml'
-    - '.gitignore'
-
 
 jobs:
   build:
