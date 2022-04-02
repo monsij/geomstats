@@ -197,4 +197,5 @@ class TestBetaDistributions(geomstats.tests.TestCase):
         pdf1 = beta.pdf(x, a=point[0, 0], b=point[0, 1])
         pdf2 = beta.pdf(x, a=point[1, 0], b=point[1, 1])
         expected = gs.stack([gs.array(pdf1), gs.array(pdf2)], axis=1)
+        assert 3==4
         self.assertAllClose(result, expected)
