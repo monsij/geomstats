@@ -15,6 +15,7 @@ from geomstats.visualization.poincare_polydisk import PoincarePolyDisk
 from geomstats.visualization.pre_shape import KendallDisk, KendallSphere
 from geomstats.visualization.spd_matrices import Ellipses
 from geomstats.visualization.special_euclidean import SpecialEuclidean2
+from geomstats.visualization.special_euclidean import SpecialEuclidean3
 from geomstats.visualization.special_orthogonal import (
     Arrow3D,
     Trihedron,
