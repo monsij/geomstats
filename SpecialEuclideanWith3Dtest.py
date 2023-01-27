@@ -16,8 +16,8 @@ def main():
     is_3D = False
     fig = plt.figure(figsize=(6,6))
     samples = 5
-    viz = visualization.SpecialEuclidean3.plot_geodesic()
-
+    viz = visualization.SpecialEuclidean2.plot_geodesic()
+    plt.show()
     sys.exit()
 
     if is_3D:

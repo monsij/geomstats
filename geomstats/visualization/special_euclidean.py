@@ -89,7 +89,7 @@ class SpecialEuclidean2:
         points = geodesic(t)
         points_mat = SE2_VECT.matrix_from_vector(points)  # required as plot for SpecialEuclidean2 expects matrix form
         visualization.plot(points_mat, space="SE2_GROUP")
-        plt.show()
+        #plt.show() # prevents pytest warning
 
         
 
@@ -176,4 +176,4 @@ class SpecialEuclidean3:
         points = geodesic(t)
 
         visualization.plot(points, space="SE3_GROUP")
-        plt.show()
+        #plt.show()  # prevents pytest warning
