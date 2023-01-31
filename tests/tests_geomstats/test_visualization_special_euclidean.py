@@ -47,4 +47,3 @@ class TestVisualization(tests.conftest.TestCase):
         visualization.SpecialEuclidean3.plot_geodesic(
             initial_point, initial_tangent_vec, METRIC, N_STEPS
         )
-        
