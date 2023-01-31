@@ -3,15 +3,21 @@
 import geomstats.backend as gs
 import matplotlib
 import matplotlib.pyplot as plt
-from geomstats.visualization.hyperbolic import (KleinDisk, PoincareDisk,
-                                                PoincareHalfPlane)
+from geomstats.visualization.hyperbolic import (
+    KleinDisk,
+    PoincareDisk,
+    PoincareHalfPlane,
+)
 from geomstats.visualization.hypersphere import Circle, Sphere
 from geomstats.visualization.poincare_polydisk import PoincarePolyDisk
 from geomstats.visualization.pre_shape import KendallDisk, KendallSphere
 from geomstats.visualization.spd_matrices import Ellipses
 from geomstats.visualization.special_euclidean import SpecialEuclidean2
-from geomstats.visualization.special_orthogonal import (Arrow3D, Trihedron,
-                                                        convert_to_trihedron)
+from geomstats.visualization.special_orthogonal import (
+    Arrow3D,
+    Trihedron,
+    convert_to_trihedron,
+)
 from mpl_toolkits.mplot3d import Axes3D  # NOQA
 
 AX_SCALE = 1.2
