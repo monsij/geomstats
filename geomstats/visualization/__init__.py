@@ -1,8 +1,10 @@
 """The Visualization Package."""
 
-import geomstats.backend as gs
 import matplotlib
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D  # NOQA
+
+import geomstats.backend as gs
 from geomstats.visualization.hyperbolic import (
     KleinDisk,
     PoincareDisk,
@@ -18,7 +20,6 @@ from geomstats.visualization.special_orthogonal import (
     Trihedron,
     convert_to_trihedron,
 )
-from mpl_toolkits.mplot3d import Axes3D  # NOQA
 
 AX_SCALE = 1.2
 
