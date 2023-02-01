@@ -1,6 +1,8 @@
 Geomstats
 =========
 
+This is a test change
+
 .. list-table::
    :header-rows: 0
 
