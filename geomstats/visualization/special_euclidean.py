@@ -188,6 +188,7 @@ class SpecialEuclidean3:
             Chosen metric for geodesic
         N_STEPS : array-like, shape=[..., dim]
             Number of samples on the geodesic to plot.
+        extra line
         """
         geodesic = METRIC.geodesic(
             initial_point=initial_point, initial_tangent_vec=initial_tangent_vec
