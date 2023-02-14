@@ -2,7 +2,7 @@ name: "Linting"
 
 on:
   push:
-    branches: [master,github-actions-test]
+    branches: [master,github-actions-test, action_test]
   pull_request:
     branches: [master]
 
