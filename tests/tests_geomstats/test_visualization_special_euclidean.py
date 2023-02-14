@@ -1,13 +1,15 @@
 """Unit tests for visualization."""
 
-import matplotlib
-import matplotlib.pyplot as plt
-
 import geomstats.backend as gs
 import geomstats.visualization as visualization
+import matplotlib
+import matplotlib.pyplot as plt
 import tests.conftest
 from geomstats.geometry.special_euclidean import SpecialEuclidean
-from geomstats.visualization.special_euclidean import SpecialEuclidean2, SpecialEuclidean3
+from geomstats.visualization.special_euclidean import (
+    SpecialEuclidean2,
+    SpecialEuclidean3,
+)
 
 matplotlib.use("Agg")  # NOQA
 
