@@ -2,7 +2,7 @@ name: "Testing"
 
 on:
   push:
-    branches: [master,github-actions-test]
+    branches: [master,github-actions-test, action_test]
     paths-ignore:
     - 'docs/**'
     - 'README.rst'
