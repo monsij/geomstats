@@ -7,7 +7,7 @@ import geomstats.backend as gs
 import geomstats.visualization as visualization
 import tests.conftest
 from geomstats.geometry.special_euclidean import SpecialEuclidean
-from geomstats.visualization.special_euclidean import SpecialEuclidean3
+from geomstats.visualization.special_euclidean import SpecialEuclidean2, SpecialEuclidean3
 
 matplotlib.use("Agg")  # NOQA
 
