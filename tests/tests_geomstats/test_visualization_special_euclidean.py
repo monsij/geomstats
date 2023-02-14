@@ -14,6 +14,7 @@ from geomstats.visualization.special_euclidean import (
 
 matplotlib.use("Agg")  # NOQA
 
+
 class TestSpecialEuclidean2(tests.conftest.TestCase):
     """Test of visualization for SE(2) group."""
 
