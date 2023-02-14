@@ -1,5 +1,3 @@
-
-
 """Visualization for Geometric Statistics."""
 import logging
 
