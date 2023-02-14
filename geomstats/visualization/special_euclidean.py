@@ -1,16 +1,19 @@
+
+
 """Visualization for Geometric Statistics."""
 import logging
 
-import geomstats.backend as gs
-import geomstats.visualization as visualization
 import matplotlib.pyplot as plt
-from geomstats.geometry.special_euclidean import SpecialEuclidean
 from mpl_toolkits.mplot3d import Axes3D  # NOQA
 
-SE2_MAT = SpecialEuclidean(n=2, point_type="matrix")
+import geomstats.backend as gs
+import geomstats.visualization as visualization
+from geomstats.geometry.special_euclidean import SpecialEuclidean
+
+SE2_GROUP = SpecialEuclidean(n=2, point_type="matrix")
 SE2_VECT = SpecialEuclidean(n=2, point_type="vector")
 
-SE3_MAT = SpecialEuclidean(n=3, point_type="matrix")
+SE3_GROUP = SpecialEuclidean(n=3, point_type="matrix")
 SE3_VECT = SpecialEuclidean(n=3, point_type="vector")
 
 METRIC_SE2 = SE2_VECT.left_canonical_metric
